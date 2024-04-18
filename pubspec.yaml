@@ -65,10 +65,21 @@ flutter:
     - assets/images/banner2.png
     - assets/images/apple.png
     - assets/images/Banana.png
+    - assets/images/Chicken.png
+    - assets/images/steak.png
+    - assets/images/Ginger.png
     - assets/images/Jalapeno.png
     - assets/images/Ricebag.png
     - assets/images/Pulses.png
-    - assets/images/Beef.png
+    - assets/images/VegCardExplore.png
+    - assets/images/bakeryandsnacks.png
+    - assets/images/meatandfish.png
+    - assets/images/beverages.png
+    - assets/images/CookingoilandGheeExplore.png
+    - assets/images/Chickeneggsred.png
+    - assets/images/dairyandeggs.png
+
+
 
 
 

@@ -10,7 +10,7 @@ class ProductDetail extends StatefulWidget {
   final String productName;
   final String pricePerKg;
   final String price;
-  final String productinfo;
+  final String productInfo;
   final String nutirients;
   final String feautureupdate;
   const ProductDetail({
@@ -21,8 +21,8 @@ class ProductDetail extends StatefulWidget {
     required this.pricePerKg,
     required this.nutirients,
     required this.price,
-    required this.productinfo,
-    required this.feautureupdate, // Corrected variable name
+    required this.productInfo,
+    required this.feautureupdate,  // Corrected variable name
   });
 
   @override
@@ -42,7 +42,7 @@ class _ProductDetailState extends State<ProductDetail> {
         actions: [ 
           IconButton(
               onPressed: () {},
-              icon: Icon(
+              icon: const Icon(
                 CupertinoIcons.share,
                 color: Color(0xff181725),
               ))
@@ -206,7 +206,7 @@ class _ProductDetailState extends State<ProductDetail> {
                 padding:
                     const EdgeInsets.symmetric(horizontal: 25, vertical: 5),
                 child: Text(
-                  widget.productinfo, // Used widget.productinfo here
+                  widget.productInfo, // Used widget.productinfo here
                   style: const TextStyle(
                     fontFamily: 'Gilroy-Medium',
                     fontSize: 13,

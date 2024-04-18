@@ -4,7 +4,7 @@ import '../Constants/const_color.dart';
 
 
 class CounterPlusMinus extends StatefulWidget {
-  const CounterPlusMinus({Key? key});
+  const CounterPlusMinus({super.key,});
 
   @override
   State<CounterPlusMinus> createState() => _CounterPlusMinusState();
@@ -38,7 +38,7 @@ class _CounterPlusMinusState extends State<CounterPlusMinus> {
             width: 45,
             decoration: BoxDecoration(
               border: Border.all(
-                color: Color.fromARGB(255, 146, 146, 146),
+                color: const Color.fromARGB(255, 146, 146, 146),
                 width: 1,
               ),
               borderRadius: BorderRadius.circular(15),

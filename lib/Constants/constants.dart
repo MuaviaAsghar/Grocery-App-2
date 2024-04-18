@@ -1,3 +1,5 @@
+import 'const_color.dart';
+
 class CImages {
   static const String banner1 = 'assets/images/banner1.png';
   static const String banner2 = 'assets/images/banner2.png';
@@ -95,4 +97,54 @@ final List<Map<String, String>> appleProductDetails = [
     'pricePerKg': '7pcs, Priceg',
     'price': '\$4.99',
   },
+];
+final List<Map<String, dynamic>> exploreData = [
+  {
+    'productType': 'Frash Fruits & Vegetable',
+    'imagePathCard': 'assets/images/VegCardExplore.png',
+    'colorInputUser': fruitandvegColor,
+  },
+  {
+    'productType': 'Cooking Oil & Ghee',
+    'imagePathCard': 'assets/images/CookingoilandGheeExplore.png',
+    'colorInputUser': cookingoilColor,
+  },
+  {
+    'productType': 'Meat & Fish',
+    'imagePathCard': 'assets/images/meatandfish.png',
+    'colorInputUser': meatandfishColor,
+  },
+  {
+     'productType': 'Bakery & Snacks',
+    'imagePathCard': 'assets/images/bakeryandsnacks.png',
+    'colorInputUser': bakeryandsnacksColor,
+  },
+   {
+    'productType': 'Dairy & Eggs',
+    'imagePathCard': 'assets/images/dairyandeggs.png',
+    'colorInputUser': dairyandeggsColor,
+  },
+   {
+    'productType': 'Beverages',
+    'imagePathCard': 'assets/images/beverages.png',
+    'colorInputUser': beveragesColor,
+  }
+  
+  // Add more data for other categories here
+];
+
+
+final List<Map<String, dynamic>> beveragesData = [
+  {
+    'imageBgPath':'assets/images/.png',
+    'imagePath': 'assets/images/pepsican.png',
+    'productName': 'Pepsi Can',
+    'pricePerPiece': '355ml, Price',
+    'price': '\$1.99',
+    'productInfo':
+        'Apples are nutritious. Apples may be good for weight loss...',
+    'nutrients': 'Calories: 104, Carbs: 28g, Fiber: 5g...',
+    'featureUpdate': 'This feature will be updated soon with list tile view',
+  },
+  // Add more data for other beverages here
 ];

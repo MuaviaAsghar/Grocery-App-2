@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:groceryapp2/navigation__icons_icons.dart';
 
+import 'screens/explore_page.dart';
 import 'screens/home_screen.dart';
 
 void main() {
@@ -51,6 +52,7 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   final screens = [
     const HomeScreen(),
+    const ExplorePage(),
    
   ];
   int currentIndex = 0;

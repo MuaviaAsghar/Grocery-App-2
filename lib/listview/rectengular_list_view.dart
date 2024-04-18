@@ -6,9 +6,9 @@ class RectengularView extends StatelessWidget {
   final List<Map<String, String>> cardData;
 
   const RectengularView({
-    Key? key,
+    super.key,
     required this.cardData,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -23,6 +23,8 @@ class RectengularView extends StatelessWidget {
           return Padding(
             padding: const EdgeInsets.symmetric(horizontal: 0, vertical: 20),
             child: RectengularWidget(
+              price: 'Null',
+              perpiece: 'Null',
               colorinput: backgroundColor,
               imagePath: data['imagePath']!,
               nameofproduct: data['nameofproduct']!,

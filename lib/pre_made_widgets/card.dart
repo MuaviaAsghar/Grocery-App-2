@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:groceryapp2/buttons/add_buttons.dart';
 import 'package:groceryapp2/screens/products_details.dart';
@@ -51,7 +50,7 @@ class custom_card extends StatelessWidget {
                               productName: nameofproduct,
                               pricePerKg: perpiece,
                               price: price,
-                              productinfo: '', // Add your product info here
+                              productInfo: '', // Add your product info here
                               nutirients: '', // Add your product nutrients here
                               feautureupdate: '',
                             ))),
@@ -78,7 +77,7 @@ class custom_card extends StatelessWidget {
                                   productName: nameofproduct,
                                   pricePerKg: perpiece,
                                   price: price,
-                                  productinfo: '', // Add your product info here
+                                  productInfo: '', // Add your product info here
                                   nutirients:
                                       '', // Add your product nutrients here
                                   feautureupdate: '',
@@ -132,7 +131,7 @@ class custom_card extends StatelessWidget {
                                   productName: nameofproduct,
                                   pricePerKg: perpiece,
                                   price: price,
-                                  productinfo: '', // Add your product info here
+                                  productInfo: '', // Add your product info here
                                   nutirients:
                                       '', // Add your product nutrients here
                                   feautureupdate: '',
